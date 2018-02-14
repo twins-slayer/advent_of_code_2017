@@ -9,3 +9,9 @@ for line in data.split('\n'):
 	num = [int(x) for x in line.split('\t')]
 	checksum += max(num) - min(num)
 print (checksum)
+
+'part II'
+
+with open("numbers.txt", "r") as f:
+	data = f.read().strip()
+
