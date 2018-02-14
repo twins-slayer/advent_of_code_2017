@@ -3,7 +3,6 @@
 with open("numbers.txt", "r") as f:
 	data = f.read().strip()
 
-data += data[0]
 result = 0
 for i in range(0, len(data) - 1):
 	if data[i] == data[i + 1]:
